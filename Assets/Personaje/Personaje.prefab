@@ -45,159 +45,13 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756503019693169375}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b235179bd2a63d1468dd430670338c55, type: 3}
-  m_Controller: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_Avatar: {fileID: 9000000, guid: a81594bd24af830498b7a988fb577e15, type: 3}
+  m_Controller: {fileID: 22100000, guid: 0e63a6021ee49ea42a866ffb0b45312a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: '
-
-    Transform ''EthanLeftToe1'' has been deleted
-
-    Transform
-    ''EthanLeftFoot'' has been deleted
-
-    Transform ''EthanLeftLeg'' has been deleted
-
-    Transform
-    ''EthanLeftUpLeg'' has been deleted
-
-    Transform ''EthanRightToe1'' has been
-    deleted
-
-    Transform ''EthanRightFoot'' has been deleted
-
-    Transform ''EthanRightLeg''
-    has been deleted
-
-    Transform ''EthanRightUpLeg'' has been deleted
-
-    Transform
-    ''EthanJaw'' has been deleted
-
-    Transform ''EthanLeftEye'' has been deleted
-
-    Transform
-    ''EthanRightEye'' has been deleted
-
-    Transform ''EthanHead'' has been deleted
-
-    Transform
-    ''EthanLeftHandIndex3'' has been deleted
-
-    Transform ''EthanLeftHandIndex2''
-    has been deleted
-
-    Transform ''EthanLeftHandIndex1'' has been deleted
-
-    Transform
-    ''EthanLeftHandMiddle3'' has been deleted
-
-    Transform ''EthanLeftHandMiddle2''
-    has been deleted
-
-    Transform ''EthanLeftHandMiddle1'' has been deleted
-
-    Transform
-    ''EthanLeftHandPinky3'' has been deleted
-
-    Transform ''EthanLeftHandPinky2''
-    has been deleted
-
-    Transform ''EthanLeftHandPinky1'' has been deleted
-
-    Transform
-    ''EthanLeftHandRing3'' has been deleted
-
-    Transform ''EthanLeftHandRing2''
-    has been deleted
-
-    Transform ''EthanLeftHandRing1'' has been deleted
-
-    Transform
-    ''EthanLeftHandThumb3'' has been deleted
-
-    Transform ''EthanLeftHandThumb2''
-    has been deleted
-
-    Transform ''EthanLeftHandThumb1'' has been deleted
-
-    Transform
-    ''EthanLeftHand'' has been deleted
-
-    Transform ''EthanLeftForeArm'' has been
-    deleted
-
-    Transform ''EthanLeftArm'' has been deleted
-
-    Transform ''EthanLeftShoulder''
-    has been deleted
-
-    Transform ''EthanRightHandIndex3'' has been deleted
-
-    Transform
-    ''EthanRightHandIndex2'' has been deleted
-
-    Transform ''EthanRightHandIndex1''
-    has been deleted
-
-    Transform ''EthanRightHandMiddle3'' has been deleted
-
-    Transform
-    ''EthanRightHandMiddle2'' has been deleted
-
-    Transform ''EthanRightHandMiddle1''
-    has been deleted
-
-    Transform ''EthanRightHandPinky3'' has been deleted
-
-    Transform
-    ''EthanRightHandPinky2'' has been deleted
-
-    Transform ''EthanRightHandPinky1''
-    has been deleted
-
-    Transform ''EthanRightHandRing3'' has been deleted
-
-    Transform
-    ''EthanRightHandRing2'' has been deleted
-
-    Transform ''EthanRightHandRing1''
-    has been deleted
-
-    Transform ''EthanRightHandThumb3'' has been deleted
-
-    Transform
-    ''EthanRightHandThumb2'' has been deleted
-
-    Transform ''EthanRightHandThumb1''
-    has been deleted
-
-    Transform ''EthanRightHand'' has been deleted
-
-    Transform
-    ''EthanRightForeArm'' has been deleted
-
-    Transform ''EthanRightArm'' has been
-    deleted
-
-    Transform ''EthanRightShoulder'' has been deleted
-
-    Transform
-    ''EthanNeck'' has been deleted
-
-    Transform ''EthanSpine2'' has been deleted
-
-    Transform
-    ''EthanSpine1'' has been deleted
-
-    Transform ''EthanSpine'' has been deleted
-
-    Transform
-    ''EthanHips'' has been deleted
-
-    Transform ''EthanSkeleton'' has been deleted'
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -257,7 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
-  m_JumpPower: 6
+  m_JumpPower: 2
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 1
@@ -293,7 +147,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a81594bd24af830498b7a988fb577e15,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a81594bd24af830498b7a988fb577e15,
         type: 3}
@@ -303,7 +157,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a81594bd24af830498b7a988fb577e15,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a81594bd24af830498b7a988fb577e15,
         type: 3}
@@ -318,7 +172,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a81594bd24af830498b7a988fb577e15,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a81594bd24af830498b7a988fb577e15,
         type: 3}
